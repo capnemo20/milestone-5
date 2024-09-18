@@ -1,3 +1,20 @@
 h1{
     color: lightcoral;
 }
+li{
+    color: rgb(105, 22, 4);
+}
+#fruits-title{
+    color: rgb(36, 105, 105);
+}
+.important-places{
+    color: blueviolet;
+}
+
+.large-text{
+    font-size: 2em;
+}
+.text-center{
+    /* background-color: yellowgreen !important; */
+    text-align: center;
+}

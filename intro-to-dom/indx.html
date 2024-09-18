@@ -5,23 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DOM</title>
     <link rel="stylesheet" href="./styles/style.css" />
-    
   </head>
   <body>
     <header>
       <h1>Welcome to my DOM</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti laudantium voluptates facilis. Reprehenderit velit, voluptatibus, eum corporis qui veniam atque enim ducimus exercitationem, similique fugiat ut voluptates mollitia tenetur quibusdam.</p>
     </header>
 
-    <main>
+    <main id="main-container">
+      <section>
         <h1>My Awesome Dom de</h1>
         <ul>
-            <li>Jalali set</li>
-            <li>Shafayet</li>
-            <li>Bonobash</li>
-            <li>Dom de re baba</li>
+          <li>Jalali set</li>
+          <li>Shafayet</li>
+          <li>Bonobash</li>
+          <li>Dom de re baba</li>
         </ul>
+      </section>
+      <section class="fruits-container" >
+        <h1 id="fruits-title" class="some-class random-class blue-bg">Fruits I like</h1>
+        <ul>
+          <li>Apple</li>
+          <li>Banana</li>
+          <li>Carrot</li>
+        </ul>
+      </section>
+      <section id="places-container" class="large-text">
+        <h1>Places I like to visit</h1>
+        <ul id="places-list">
+            <li class="important-places">Sundarban</li>
+            <li class="important-places">Bandarban</li>
+            <li class="important-places">KAtabon</li>
+            <li>Shalbon</li>
+        </ul>
+      </section>
+
     </main>
 
     <script src="./js/script.js"></script>
+    <script src="./js/append.js"></script>
+    <script src="./js/styleInJS.js"></script>
   </body>
 </html>
